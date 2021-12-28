@@ -12,35 +12,73 @@
 </head>
 
 <body>
-    <!-- navbar -inicio -->
-    <nav class="navbar bg-color navbar-light">
-        <!-- Brand -->
-        <a class="navbar-brand mx-auto d-block" href="#"><img src="multimedia/Logo.jpeg" alt="Logo"></a>
+    <header>
+        <!-- navbar -inicio -->
+        <nav class="navbar bg-color navbar-light">
+            <!-- Brand -->
+            <a class="navbar-brand mx-auto d-block" href="#"><img src="multimedia/Logo.jpeg" alt="Logo"></a>
 
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"> </span>
-        </button>
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"> </span>
+            </button>
 
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Productos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Regala</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Ubicacion</a>
-                </li>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Regala</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ubicacion</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- navabar - fin -->
+    </header>
+    <main>
+        <!-- inicio portada -->
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
             </ul>
-        </div>
-    </nav>
-    <!-- navabar - fin -->
+          
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="multimedia/portada.png" alt="portada1" class="mx-auto d-block" >
+              </div>
+              <div class="carousel-item">
+                <img src="multimedia/portada2.jpeg" alt="portada2" class="mx-auto d-block">
+              </div>
+              <div class="carousel-item">
+                <img src="multimedia/portada 3.jpeg" alt="portada3" class="mx-auto d-block">
+              </div>
+            </div>
+          
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          
+          </div>
+        <!-- fin portada -->
+
+    </main>
 
 
 
