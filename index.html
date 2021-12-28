@@ -11,7 +11,7 @@
     <title>Tienda online Reverence Desing</title>
 </head>
 
-<body>
+<body class="bodyHome">
     <header>
         <!-- navbar -inicio -->
         <nav class="navbar bg-color navbar-light">
@@ -27,31 +27,30 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Productos</a>
+                        <a class="nav-link" href="secciones/producto.html">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Regala</a>
+                        <a class="nav-link" href="secciones/regala.html">Regala</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="secciones/contacto.html">Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Ubicacion</a>
+                        <a class="nav-link" href="secciones/ubicacion.html">Ubicacion</a>
                     </li>
                 </ul>
             </div>
         </nav>
         <!-- navabar - fin -->
     </header>
-    <main>
+    <main class="mainHome">
         <!-- inicio portada -->
-        <div id="demo" class="carousel slide" data-ride="carousel">
+        <div id="demo" class="carousel slide portada" data-ride="carousel">
 
             <!-- Indicators -->
             <ul class="carousel-indicators">
               <li data-target="#demo" data-slide-to="0" class="active"></li>
               <li data-target="#demo" data-slide-to="1"></li>
-              <li data-target="#demo" data-slide-to="2"></li>
             </ul>
           
             <!-- The slideshow -->
@@ -62,11 +61,7 @@
               <div class="carousel-item">
                 <img src="multimedia/portada2.jpeg" alt="portada2" class="mx-auto d-block">
               </div>
-              <div class="carousel-item">
-                <img src="multimedia/portada 3.jpeg" alt="portada3" class="mx-auto d-block">
-              </div>
-            </div>
-          
+        
             <!-- Left and right controls -->
             <a class="carousel-control-prev" href="#demo" data-slide="prev">
               <span class="carousel-control-prev-icon"></span>
@@ -77,15 +72,30 @@
           
           </div>
         <!-- fin portada -->
-
+        <!-- inicio nuevos productos -->
+        <div class="nuevosproductos">
+            <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4 tituloNewIn">
+                    <a href="secciones/producto.html">
+                        <h2 class="newIn">NEW <br>IN</h2>
+                    </a>    
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-lg-3 col-xl-4">
+                      <div class="nuevoProducto"> <img src="multimedia/nuevoproducto1.jpeg" alt="nuevoproducto1" class="mx-auto d-block"></div>
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-lg-3 col-xl-4">
+                      <div class="nuevoProducto"><img src="multimedia/nuevoproducto2.jpeg" alt="nuevoproducto2" class="mx-auto d-block"> </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="minicoleccion"></div>
+       <!-- fin nuevos productos -->
+        
     </main>
 
-
-
-
-
-
-
+    <footer></footer>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
