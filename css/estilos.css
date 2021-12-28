@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand img{
+    height: 80px;
+}
+.nav-item{
+    background-color: #f8edeb;
+}
+.nav-link{
+    padding-left:20px !important;
+}
+.bg-color{
+    background-color:white;
+}
