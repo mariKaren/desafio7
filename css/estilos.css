@@ -50,9 +50,13 @@
     color: black;
     font-style: italic;
     padding-top: 180px;
+    padding-left: 100px;
 }
 .tituloNewIn a{
     text-decoration: none;
     color: black;
 }
-
+.nuevoProducto:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
