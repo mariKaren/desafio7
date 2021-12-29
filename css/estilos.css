@@ -179,3 +179,31 @@ footer {
     margin-left: 8px;
     grid-area: copyRight;
 }
+/* css PRODUCTOS */
+
+.tituloSeccion{
+    font-size: 25px;
+    text-align: center;
+    font-family:'Petit Formal Script', cursiva;
+    font-style: italic;
+    background-color: #f8edeb;
+    padding-top: 0px;
+    padding-right: 68px;
+    margin-left: 400px;
+    margin-right: 400px;
+  
+}
+.igProd a{
+    text-decoration: none;
+}
+
+.instagramProductos{
+    grid-area: instagram;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #e8c2ca;
+
+}
