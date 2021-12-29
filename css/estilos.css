@@ -106,6 +106,10 @@
     color: black;
     font-style: italic;
 }
+.botonVerMas:hover{
+    text-decoration: none;
+    color: black;
+}
 .redesSociales {
     width: 100%;
     text-align: center;
