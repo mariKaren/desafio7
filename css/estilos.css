@@ -11,9 +11,19 @@
 .nav-item{
     background-color: #f8edeb;
 }
-.nav-link{
-    padding-left:20px !important;
+#pading1{
+    padding: 20px;
 }
+#pading2{
+    padding: 20px;
+}
+#pading3{
+    padding: 20px;
+}
+#pading4{
+    padding: 20px;
+}
+
 .bg-color{
     background-color:white;
 }
@@ -27,7 +37,9 @@
 }
 .carousel-indicators{
     background-color: #f8edeb;
-    position: relative !important;
+}
+#pBarraCarousel{
+    position: relative;
 }
 .nuevosProductos{
     height: 500px;
