@@ -42,45 +42,58 @@
 #pBarraCarousel{
     position: relative;
 }
+
+.seccionNuevosProductos{
+    width: 100%;
+   
+}
 .nuevosProductos{
-    height: 500px;
-    background-color: #f8edeb;
-}
-.nuevoProducto{
-    background-position: center;
-}
-.nuevoProducto img{
-    width: 350px;
-    height: 500px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    width: 50%;
+    height: 400px;
+    background-color: #e8c2ca;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .tituloNewIn{
+    width: 50%;
+    height: 100%;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .newIn {
     font-size: 70px;
     font-family: 'Lora', serif;
     color: black;
     font-style: italic;
-    padding-top: 180px;
-    padding-left: 100px;
 }
+
 .tituloNewIn a{
     text-decoration: none;
     color: black;
 }
-.nuevoProducto:hover {
-    transform: scale(1.2);
-    transition: all 0.5s;
+.imgNuevoProducto{
+    width: 50%;
+    height: 100%;
+    background-color: white;
 }
+.imgNuevoProducto img{
+    width: 70%;
+    height: auto;
+    margin-top: 27px;
+}
+
 .tituloMiniColeccion{
     text-align: center;
     font-style: italic;
     font-size: 40px;
     margin-top: 30px;
-    background-color:#d1b3c4;
+    background-color:#e2eafc;
     color: white;
     margin-left: 400px;
     margin-right: 400px;
