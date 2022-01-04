@@ -7,7 +7,8 @@
 
 .navbar-brand img{
     height: 80px;
-}
+    padding-left: 67px;
+} 
 .nav-item{
     background-color: #f8edeb;
 }
@@ -195,7 +196,7 @@ footer {
     margin-left: 8px;
     grid-area: copyRight;
 }
-/* css PRODUCTOS */
+/* css titulo secciones */
 
 .tituloSeccion{
     font-size: 25px;
@@ -204,11 +205,12 @@ footer {
     font-style: italic;
     background-color: #f8edeb;
     padding-top: 0px;
-    padding-right: 68px;
+    /* padding-right: 68px; */
     margin-left: 400px;
     margin-right: 400px;
   
 }
+/* CSS PRODUCTOS */
 .igProd a{
     text-decoration: none;
 }
