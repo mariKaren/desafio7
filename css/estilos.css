@@ -100,7 +100,7 @@
 }
 
 .miniColeccion{
-    height: 570px;
+    height: auto;
 }
 .coleccion img{
     width: 350px;
@@ -110,6 +110,7 @@
 .verMas {
     width: 100%;
     text-align: center;
+    margin-top: 15px;
 }
 
 .botonVerMas {
